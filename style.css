@@ -2,5 +2,63 @@ body{
     background-image: url(./bg.jpg);
 }
 .card-1{
-    background-color: rgb(133, 221, 236);
+    background-color: rgb(235, 225, 140);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+   
 }
+.card-1:hover{
+
+  box-shadow: 8px 10px 4px  8px rgb(56, 155, 56); background-color: rgb(118, 207, 203);
+}
+
+/* @media screen  and(min-width: 480px) {
+    .card-1 {
+     
+      width: 200px;
+      
+
+    }
+    .card-1 h2{
+        font-size: 20px;
+    }
+  } */
+
+  @media only screen and (min-width: 250px)and (max-width: 559px) {
+    .card-1 {
+     
+     
+      height: 400px;
+
+    }
+    .card-1 h2{
+        font-size: 15px;
+    }
+  }
+  @media only screen and (min-width: 560px)and (max-width: 800px) {
+    .card-1 {
+     
+     width: 400px;
+      height: 400px;
+
+    }
+    .card-1 h2{
+        font-size: 15px;
+    }
+  }
+  @media only screen and (min-width: 801px)and (max-width: 1524px) {
+    .card-1 {
+     
+     width: 600px;
+      height: 600px;
+      box-shadow: 8px 10px 4px  8px rgb(30, 31, 30);
+
+    }
+    .card-1 h2{
+        font-size: 25px;
+        margin-top: 100px;
+        box-shadow: 8px 10px 4px  8px rgb(30, 31, 30);
+    }
+    .c-body{
+      box-shadow: 8px 10px 4px  8px rgb(56, 155, 56);
+    }
+  }

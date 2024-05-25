@@ -1,8 +1,8 @@
 var weather = prompt("Enter the weather (e.g., sunny, rainy, cloudy ,windy):");
 if (weather == "sunny") {
-  document.write(`<center>` + `<div class="card-1 m-auto rounded-pill   " >` +
-    `<img src="hot sun.png"'+ class="img-fluid m-auto w-50 card-img-top" alt="...">` +
-    `<div class="card-body">` +
+  document.write(`<center>` + `<div class="card-1 m-auto mt-5 rounded-pill   " >` +
+    `<img src="hot sun.png"'+ class="img-fluid sun m-auto w-25 mt-5 card-img-top" alt="...">` +
+    `<div class="card-body c-body">` +
     `<p class="card-text text-center"> <h2><center> uff uff garmi </center> </h2> </br> <b> <h1> <center> sunny😰 </center> </h1> </b></p>` +
     `</div>` +
     `</div>` + `</center>`)
@@ -10,7 +10,7 @@ if (weather == "sunny") {
 
 else if (weather == "rainy") {
   document.write(`<center>` + `<div class="card-1 m-auto rounded-pill " >` +
-    `<img src="rain.webp" class="img-fluid m-auto  w-50 card-img-top" alt="...">` +
+    `<img src="rain.webp" class="img-fluid m-auto  w-25 mt-5 card-img-top" alt="...">` +
     `<div class="card-body">` +
     `<p class="card-text text-center"> <h2><center> 😊barish ka suhana mausam☔</center> </h2> </br> <b> <h1> <center>rainy ☔</center> </h1> </b></p>` +
     `</div>` +
@@ -19,7 +19,7 @@ else if (weather == "rainy") {
 }
 else if (weather == "cloudy") {
   document.write(`<center>` + `<div class="card-1 m-auto rounded-pill   " >` +
-    `<img src="cloudyy.png"'+ class="img-fluid m-auto w-50 card-img-top" alt="...">` +
+    `<img src="cloudyy.png"'+ class="img-fluid  m-auto w-25 mt-5 card-img-top" alt="...">` +
     `<div class="card-body">` +
     `<p class="card-text text-center"> <h2><center>😊 badal chhaye hue hai⛅ </center> </h2> </br> <b> <h1> <center> cloudy 🌤</center> </h1> </b></p>` +
     `</div>` +
@@ -28,7 +28,7 @@ else if (weather == "cloudy") {
 }
 else if (weather == "windy") {
   document.write(`<center>` + `<div class="card-1 m-auto rounded-pill  " >` +
-    `<img src="windy.png"'+ class="img-fluid m-auto w-50 card-img-top" alt="...">` +
+    `<img src="windy.png"'+ class="img-fluid m-auto w-25 mt-5 card-img-top" alt="...">` +
     `<div class="card-body">` +
     `<p class="card-text text-center"> <h2><center> Thandi hawaye🌥</center> </h2> </br> <b> <h1> <center> windy🌊 </center> </h1> </b></p>` +
     `</div>` +
